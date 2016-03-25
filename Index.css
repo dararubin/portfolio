@@ -1,0 +1,149 @@
+body {
+	background-color: white;
+}
+
+h1 {
+	color: black;
+	font-family: "PT sans";
+	margin-left: 1em;
+}
+
+h2 {
+	color: black;
+	font-family: "PT sans";
+	margin-left: 1em;
+	margin-top: 1.5em;
+}
+
+input {
+	margin-right: .5em;
+}
+
+a.class1 {
+	color: white;
+}
+a.class2 {
+	color: black;
+}
+
+p {
+	color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+#intro p {
+	font-family: "PT sans";
+	font-size: 12pt;
+	color: black;
+	width: 400px;
+	height: 200px;
+	text-align: left;
+	margin-left: 5em;
+	margin-top: 5em;
+	border: thick dotted #546792;
+	padding: 1em;
+}
+
+
+.rectangle {
+	background-color: #564792;
+	border-radius: 10px;
+	display: inline-block;
+	height: 30px;
+	vertical-align: top;
+	width: 100px;
+	*display: inline;
+	zoom: 1;
+	margin-left: .5em;
+	margin-top: 1em;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: .5em;
+}
+.rectangle2 {
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	height: 30px;
+	vertical-align: top;
+	width: 120px;
+	*display: inline;
+	zoom: 1;
+	margin-left: .5em;
+	margin-top: 1em;
+	text-align: center;
+	padding-top: .5em;
+	font-size: 12.5px;
+}
+
+.container {
+	width: 1250px; overflow-x: auto; overflow-y: hidden;
+}
+
+.wrapper {
+	width: 1250px;
+}
+
+.dropbtn {
+    background-color: #564792;
+    height: 40px;
+    width: 100px;
+    color: white;
+    padding-top: .5px;
+    font-size: 16px;
+    font-family: "PT sans";
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #564792;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
