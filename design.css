@@ -33,56 +33,39 @@ a.class1 {
 a.class2 {
 	color: black;
 }
-a.class3 {
-	color: black;
-}
 
 p {
 	color: black;
 }
 
 a:link {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 a:active {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 
-
-#intro p {
-	font-family: "PT sans";
-	font-size: 12pt;
-	color: black;
-	width: 400px;
-	height: 80px;
-	text-align: left;
-	margin-left: 2.8em;
-	margin-top: 1.5em;
-	border: thick dotted #546792;
-	padding: 1em;
-}
 
 #pop p {
 	font-family: "PT sans";
 	font-size: 11pt;
 	color: black;
-	width: 750px;
+	width: 560px;
 	height: 450px;
 	text-align: left;
 	border: thick dotted white;
-	padding: 1em;
-margin-bottom: -100px;
-	margin-top: -25px;
+	padding: 0em;
+	margin-top: -10px;
 
 }
 
@@ -94,12 +77,9 @@ margin-bottom: -100px;
 	float: left;
 	margin-right: 25px;
 	margin-bottom: 5px;
-	margin-left: 20px;
+	margin-left: 0em;
 }
 
-#design {
-	width: 600px;
-}
 
 .rectangle {
 	background-color: #564792;
@@ -120,7 +100,6 @@ margin-bottom: -100px;
 
 #contact {
 	margin-left: .5em;
-
 }
 
 .rectangle2 {
@@ -140,15 +119,21 @@ margin-bottom: -100px;
 	font-size: 16px;
 	font-family: "PT sans";
 }
-
-.class3 {
-	font-family: "PT sans";
-	font-size: 13px;
+table {
+	width: 1200px;
+}
+tr {
+	width: 560px;
+}
+td {
+	width: 560px;
+	height: auto;
+	padding: 0 20px 0 0;
+	vertical-align: top;
 }
 
-td {
-	text-align: left;
-	vertical-align: top;
+.td2 {
+	height: 670px;
 }
 
 .container {
@@ -160,45 +145,45 @@ td {
 }
 
 .dropbtn {
-    background-color: #564792;
-    height: 38px;
-    width: 150px;
-    color: white;
-    padding-top: .5px;
-    font-size: 16px;
-    font-family: "PT sans";
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 1em;
-    margin-left: .5em;
+	background-color: #564792;
+	height: 38px;
+	width: 150px;
+	color: white;
+	padding-top: .5px;
+	font-size: 16px;
+	font-family: "PT sans";
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 1em;
+	margin-left: .5em;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #564792;
+	background-color: #564792;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: absolute;
-    display: inline-block;
+	position: absolute;
+	display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 /* Change color of dropdown links on hover */
