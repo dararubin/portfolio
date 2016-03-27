@@ -19,12 +19,16 @@ h2 {
 }
 
 h4 {
-	color: #546792;
+	color: #564792;
 	font-family: "PT sans";
 }
 
 input {
 	margin-right: .5em;
+}
+
+a {
+	color: #564792;
 }
 
 a.class1 {
@@ -36,6 +40,7 @@ a.class2 {
 a.class3 {
 	color: black;
 }
+
 
 p {
 	color: black;

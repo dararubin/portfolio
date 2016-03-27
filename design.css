@@ -23,6 +23,10 @@ h4 {
 	font-family: "PT sans";
 }
 
+h5 {
+	margin-top: 0px;
+}
+
 input {
 	margin-right: .5em;
 }
@@ -54,7 +58,14 @@ a:active {
 	text-decoration: underline;
 }
 
+img {
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
 
+/* .chair4 {
+	margin-left: 80px;
+} */
 
 #pop p {
 	font-family: "PT sans";
@@ -75,8 +86,8 @@ a:active {
 
 #nuday {
 	float: left;
-	margin-right: 25px;
-	margin-bottom: 5px;
+	margin-right: 0px;
+	margin-bottom: -5px;
 	margin-left: 0em;
 }
 
