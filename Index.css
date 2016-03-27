@@ -156,6 +156,25 @@ td {
 	vertical-align: top;
 }
 
+#about {
+	font-family: "PT sans";
+	font-size: 11pt;
+	color: black;
+	width: 400px;
+	height: 450px;
+	text-align: left;
+	border: thick dotted white;
+	float: right;
+	margin-right: 250px;
+} 
+
+#ocean {
+	max-width: 400px;
+	float: left;
+	margin-right: 50px;
+
+}
+
 .container {
 	width: 1250px; overflow-x: auto; overflow-y: hidden;
 }
