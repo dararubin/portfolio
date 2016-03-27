@@ -1,6 +1,7 @@
 body {
 	background-color: white;
 	margin-left: 25px;
+	font-family: "PT sans";
 
 }
 
@@ -15,6 +16,11 @@ h2 {
 	font-family: "PT sans";
 	margin-left: 1em;
 	margin-top: 1.5em;
+}
+
+h4 {
+	color: #546792;
+	font-family: "PT sans";
 }
 
 input {
@@ -63,6 +69,20 @@ a:active {
 	padding: 1em;
 }
 
+#pop p {
+	font-family: "PT sans";
+	font-size: 11pt;
+	color: black;
+	width: 750px;
+	height: 450px;
+	text-align: left;
+	border: thick dotted white;
+	padding: 1em;
+margin-bottom: -100px;
+	margin-top: -25px;
+
+}
+
 #photo {
 	margin-left: 7.3em;
 }
@@ -71,6 +91,7 @@ a:active {
 	float: left;
 	margin-right: 25px;
 	margin-bottom: 5px;
+	margin-left: 20px;
 }
 
 .rectangle {
